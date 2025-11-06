@@ -263,6 +263,11 @@ h2::after {
     background: #059669;
 }
 
+.box a {
+padding: 1.2rem;
+font-size: 2.2rem;
+}
+
 /* Contact */
 .contact {
     display: grid;
