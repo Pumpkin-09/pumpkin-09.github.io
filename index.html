@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="description" content="Portfolio d'Alan BADO - Développeur Python Back-end">
+
+        <title>Portfolio | Alan BADO</title>
+
+    </head>
+
+    <body>
+
+    <header>
+        <h1>👋 Bienvenue, je suis Alan BADO</h1>
+        <div class="intro">
+            <p>Développeur Python Back-end diplômé d'un titre RNCP 38038 niveau 6 : <br><strong>Développeur Concepteur Logiciel</strong>.</p>
+            <p>Formation de 14 mois chez OpenClassrooms - À la recherche d'un premier emploi en tant que développeur Back-end Python.</p>
+        </div>
+        <div class="cta-buttons">
+            <a href="#projects" class="btn">
+                <i class="fas fa-code"></i> Mes Projets
+            </a>
+            <a href="#contact" class="btn btn-outline">
+                <i class="fas fa-envelope"></i> Me Contacter
+            </a>
+            <a href="https://github.com/Pumpkin-09" class="btn btn-success" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about"><i class="fas fa-user"></i> À propos</a></li>
+            <li><a href="#projects"><i class="fas fa-laptop-code"></i> Projets</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>Mon Parcours</h2>
+            <div class="certification">
+                <h3><i class="fas fa-graduation-cap"></i> Certification Professionnelle</h3>
+                <p><strong>Titre RNCP 38038 - Niveau 6 (Bac+3/4)</strong></p>
+                <p>Développeur Concepteur Logiciel</p>
+                <p><i class="fas fa-building"></i> OpenClassrooms - Formation en ligne (14 mois)</p>
+                <p><i class="fas fa-check-circle" style="color: var(--success);"></i> Diplômé et prêt à rejoindre une équipe</p>
+            </div>
+            <div class="section-subtitle">
+                <p><strong>Objectif professionnel :</strong> Intégrer une équipe de développement en tant que <strong>Développeur Back-end Python</strong> pour contribuer à des projets innovants et continuer à progresser dans le domaine du développement logiciel.</p>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+
+            <h2>Mes projets</h2>
+            <p>Ils s'agit essentiellement des projets que j'ai réalisé lors de ma formation chez OpenClassrooms.</p>
+
+            <div class="project-card">
+                <img src="images/tournoi.png" alt="tournoi d'échecs">
+                <h3>Projet OpenClassrooms n°4: Logiciel de tournoi d’échecs</h3>
+                <p>Ce code génère un programme autonome et hors ligne. il se lance depuis la console.</p>
+                <p>Cette application permet de:</p>
+                <ul>
+                    <li>Créer puis de gérer une base de données de joueur.</li>
+                    <li>Créer puis gérer des tournois d’échecs.</li>
+                    <li>Afficher un résumer de la base de données des joueurs ainsi que des différents tournois et de leurs informations respectives.</li>
+                </ul>
+                <a href="https://github.com/Pumpkin-09/OCProjetP4" class="btn">Voir le code</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/livres.png" alt="Critiques de Livres">
+                <h3>Projet OpenClassrooms n°9: Application de Critiques de Livres</h3>
+                <p>L'application permet de demander ou publier des critiques de livres ou d'articles.</p>
+                <p>Elle présente trois cas d'utilisation principaux :</p>
+                <ul>
+                    <li>La publication des critiques de livres ou d'articles.</li>
+                    <li>La demande des critiques sur un livre ou sur un article particulier.</li>
+                    <li>La recherche d'articles et de livres intéressants à lire, en se basant sur les critiques des autres.</li>
+                </ul>
+                <a href="https://github.com/Pumpkin-09/OCProjetP9" class="btn">Voir le code</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/API.png" alt="API Django REST">
+                <h3>Projet OpenClassrooms n°10: Création d'une API sécurisée RESTful en utilisant Django REST</h3>
+                <p>Il s'agit d'une API RESTful sécurisée développée avec Django REST Framework, permettant de gérer un système de suivi de problèmes (issue tracking) pour des projets de développement.</p>
+                <p>Ses fonctionnalités principales :</p>
+                <ul>
+                    <li>Gestion des utilisateurs : Inscription, authentification JWT, respect du RGPD (vérification d'âge 15+, consentement).</li>
+                    <li>Gestion de projets : Création de projets (Back-end, Front-end, iOS, Android) avec système de contributeurs.</li>
+                    <li>Suivi des problèmes : Création et gestion d'issues avec priorités (LOW/MEDIUM/HIGH), statuts (To Do/In Progress/Finished) et tags (BUG/FEATURE/TASK).</li>
+                    <li>Commentaires : Communication entre contributeurs via des commentaires sur les issues.</li>
+                    <li>Sécurité : Système de permissions granulaires (seuls les auteurs peuvent modifier/supprimer leurs ressources).</li>
+                </ul>
+                <a href="https://github.com/Pumpkin-09/OCProjetP10" class="btn">Voir le code</a>
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+
+      <div class="box">
+          <h3>Contact Info</h3>
+          <p> <i class="fas fa-envelope"></i>badoalan@gmail.com</p>
+          <p> <i class="fas fa-map-marker-alt"></i>Metz, France</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/alan-bado" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/Pumpkin-09" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Alan BADO - Développeur Python Back-end</p>
+    </footer>
+
+    </body>
+
+</html>
