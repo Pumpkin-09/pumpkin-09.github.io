@@ -249,19 +249,12 @@ h2::after {
 }
 
 /* contact */
-
-section {
-    background: white;
-    margin: 2rem 0;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
 .contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem; 
+    max-width: 900px;
+    margin: 0 auto 2rem auto;
 }
 
 .contact-item {
