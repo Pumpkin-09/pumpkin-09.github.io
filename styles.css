@@ -146,6 +146,56 @@ h2::after {
     margin-right: auto;
 }
 
+.skills h2 i {
+    margin-right: 0.5rem;
+    color: var(--secondary); /* Donne de la couleur à l'icône de fusée */
+}
+
+.tech-grid {
+    display: grid;
+    /* Grille flexible : 5 colonnes sur grand écran, 2 sur petit, min 90px par item */
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--dark); /* Fond sombre pour contraster les logos */
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+    background-color: #2a3547;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.tech-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+}
+
+.tech-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 0.75rem;
+    /* Un filtre pour que les logos (même colorés) ressortent mieux sur fond sombre */
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); 
+}
+
+.tech-item span {
+    color: var(--light); /* Texte clair sur fond sombre */
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
 /* Certification Badge */
 .certification {
     background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
@@ -327,6 +377,10 @@ footer {
     h2 {
         font-size: 1.8rem;
     }
+
+    .box {
+    grid-template-columns: 1fr; /* Empile les éléments de contact sur une seule colonne */
+}
 }
 
 /* Scroll to top */
