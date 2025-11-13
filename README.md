@@ -1,4 +1,4 @@
-# 💻 Alan BADO | Portfolio de Développeur Back-end Python
+# 💻 Alan BADO | Portfolio de Développeur full stack
 
 Ce dépôt contient le code source de mon portfolio professionnel, conçu pour présenter mes compétences et mes projets en tant que **Développeur Concepteur Logiciel (Titre RNCP Niveau 6)**.
 
