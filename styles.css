@@ -375,7 +375,7 @@ footer {
         font-size: 1.8rem;
     }
 
-    .box {
+    .contact-info {
     grid-template-columns: 1fr; /* Empile les éléments de contact sur une seule colonne */
 }
 }
