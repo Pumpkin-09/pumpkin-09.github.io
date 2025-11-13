@@ -24,4 +24,4 @@ Le site est hébergé via **GitHub Pages** :
 
 
 ---
-*Ce portfolio est une vitrine de mes compétences en intégration et en front-end statique, mes compétences Back-end Python se trouvent dans les dépôts de mes projets (voir la section "Mes Projets" du site).*
+*Ce portfolio est une vitrine de mes compétences en intégration et en front-end statique, mes compétences full stack se trouvent dans les dépôts de mes projets (voir la section "Mes Projets" du site).*
