@@ -154,7 +154,7 @@ h2::after {
 .tech-grid {
     display: grid;
     /* Grille flexible : 5 colonnes sur grand écran, 2 sur petit, min 90px par item */
-    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1.5rem;
     max-width: 1000px;
     margin: 2rem auto;
@@ -182,8 +182,8 @@ h2::after {
 }
 
 .tech-item img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
     margin-bottom: 0.75rem;
     /* Un filtre pour que les logos (même colorés) ressortent mieux sur fond sombre */
